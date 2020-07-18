@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecandActivity">
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الرئيسية"
+        android:layout_alignParentRight="true"
+
+        />
+
+
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="خدمات"
+
+
+        />
+
+
+
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="الخرائط"
+        android:layout_alignParentLeft="true"
+
+        />
+
+
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="100dp"
+        >
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:id="@+id/imageView2"
+                android:src="@drawable/reyaid_office"
+                android:layout_below="@+id/textView2"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+
+
+
+بريد السودان (سودابوست )مؤسسة سودانية ، ذات وجود قانونى أعتمدت كمشغل وطنى رئيس للخدمات البريدية فى السودان ، ورثت الهيئة القومية العامة للبريد والبرق سابقا ، يمثل بريد السودان  (سودابوست ) السودان فى عضوية إتحاد البريد العالمى  التابع للامم المتحدة ، والذى يحظى السودان ضمنه بمناصب مهمة فى أروقتة ، وكما أنها يمثل السودان فى عضوية اللجنة العربية الدائمة للبريد ، التابعة لجامعة الدول العربية ، وممثل السودان فى إتحاد البريد الأفريقى ، ويرتبط بإتفاقيات رسمية بها وتطرح نفسها كمشغل ومزود وطنى للخدمات البريدية الإحترافية فى السودان ، معنية بتقديم وتطوير صناعة الخدمات البريدية .. تتنوع وتمتد تفويضات وأغراض بريد السودان (سودابوست)التأسيسية تبعا لذلك ، لجميع أنواع ومستويات العمل البريدي سواء كانت بريدية أو مالية أو حكومية أو لوجستية أو تقنية،مجتمعية وثقافية ،جماهيرية أو نوعية ، إستثمارية وإقتصادية تقليدية أو مبتكرة .وتتبع ملكية سودابوست لمنظمة الضمان الاجتماعى السودانى عبر الجهاز الاستثمارى للضمان الاجتماعى.
+
+
+
+        "
+                android:id="@+id/textView5"
+                android:layout_below="@+id/imageView2"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+
+</RelativeLayout>

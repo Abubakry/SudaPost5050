@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service01">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView3"
+        android:src="@drawable/serv01"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100sp"
+        />
+
+
+
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300sp"
+        android:text="
+
+
+ هو ارخص وسيلة للتواصل بين الأفراد وبعضهم وتشمل (البطاقات البريدية ،المطبوعات ،الكتيبات ،الصحف ،والطرود الصغيرة حتى كيلو ، وتتمتع هذه الخدمة الان مع بريد السودان (سودابوست ) بثبات السعر وتطور الاداء وتقدم من خلال جميع مكاتب بريد السودان (سودابوست )المنتشرة فى كافة أنحاء السودان وخارجه.
+
+        "
+        tools:layout_editor_absoluteX="148dp"
+        tools:layout_editor_absoluteY="207dp" />
+
+
+</RelativeLayout>
+
+
+

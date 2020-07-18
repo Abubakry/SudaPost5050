@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service04">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageView6"
+        android:src="@drawable/serv04"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView4"
+        android:layout_marginTop="77dp"
+        android:layout_below="@+id/imageView6"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+
+
+
+
+تيسيرا و تسهيلا للمواطنين يقدم بريد السودان (سودابوست) خدمة توصيل المواد البريدية بإختلاف أنواعها ( بريد عادي- مسجل – طرد) للمنازل وفقا لقيم رمزية. أيضا تسمح الخدمة بالإتصال برجل البريد لإستلام ما تود إرساله من حيث أنت.
+
+
+
+    "
+                android:id="@+id/textView8"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
+
+
+
+
+

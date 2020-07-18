@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Service02">
+
+
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/serv02"
+        android:id="@+id/imageView7"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/scrollView6"
+        android:layout_below="@+id/imageView7"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:text="
+
+
+
+
+ليس سريعا فقط... بل يؤكد بريد السودان و بثقة... أنه الأسرع على الإطلاق بين موفري الخدمة الأخرين!!
+إن إتفاقتنا و إلتزاماتنا مع الإتحادات و الجهات الدولية و الإقليمية و العربية, بوصفنا المشغل القومي للخدمة البريدية في السودان تجعلنا نستأسر بميز حصرية وخاصة كلها, فبريديك السريع أيا كان نوعه .. يصل بسرعة و ثقة إلى حيث الوجهة التي إخترتها ... و لكل الدول دون المرور بمراكز التجميع و إعاده التوزيع (HUBS) التي تعرقل الأخرين .. و تضاعف الأسعار و التكلفة عليك ... إستفد من هذه الخدمة عند الحاجة لإرسال رسائل و مواد بريدية عاجلة, تقوم سودابوست بإيصال الطرود و الوثائق ضمن هذه الخدمة ايضا و بخارطة زمنية مرفقة. يتم التأمين على جميع المراسلات في هذه الخدمة مع قيام سودابوست بإنهاء جميع الإجراءات الجمركية و التصديرية. بأسعار تنافسية و تسهيلات دفع للمتعاقدين. تلتزم سودابوست بمعايير الإتحاد الدولي (UPU) في أزمنة تسليم البريد..
+
+
+
+    "
+                android:id="@+id/textView10"
+                android:layout_below="@+id/imageView4"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
